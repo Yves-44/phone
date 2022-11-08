@@ -1,0 +1,308 @@
+/* syle de notre page web */
+
+html, body{
+    margin:0;
+    padding:0%;
+    font-family:  Helvetica, sans-serif;
+    font-weight: 400;
+    background-color: rgba(153, 140, 140, 0.822);
+}
+
+.parent{
+    margin: auto;
+    width: 400px;
+    /* height: 99vh; */
+    display: flex;
+    border: 5px double firebrick;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    border-radius: 50px;
+    background-image: url("img/bg-img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    color: white;
+} 
+
+/* .parent:hover{
+    transform: rotate3d(180deg);
+} */
+
+.enfant{
+    width: 200px;
+    height: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    /* border: 1px solid red; */
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+}
+
+.cam{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    margin-bottom: 2px;
+    left: 20px;
+    /* margin-left: 5px; */
+}
+
+
+
+.dashbord{
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dashbord-cont{
+    position: relative;
+    top: 10px;
+    width: 155px;
+    height: 150px;
+    /* border: 1px solid yellow; */
+    border-radius: 25px;
+}
+
+.cont{
+    /* margin: auto; */
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cont-child{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid gold; */
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+ .cont-child-elt{
+    width: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 300;
+    /* border: 1px solid red; */
+}  
+
+.cont-child-elt-bloc{
+    width: 60px;
+    height: 60px;
+    /* border: 1px solid black; */
+    border-radius: 20%;
+}
+
+.footer-phone{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 350px;
+    height: 85px;
+    /* border: 1px solid blue; */
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.425);
+    /* opacity: 0.4; */
+}
+
+.footer-phone-app{
+    /* margin: auto; */
+    /* margin-top: 10px; */
+    width: 60px;
+    height: 60px;
+    /* border: 1px solid black; */
+    border-radius: 20%;
+    /* margin: auto; */
+}
+
+h3{
+    font-size: 2rem;
+    color: white;
+    margin-top: 100px; 
+    margin-left: 20px;
+}
+
+h4{
+    margin-bottom: 0px;
+    margin-top: 2px;
+    position: relative;
+    top: 5px;
+}
+
+.dashbord-cont-style1{
+    background-color: rgb(114, 114, 247);
+}
+
+.dashbord-cont-style2{
+    background-color: rgb(63, 55, 55);
+}
+
+.bg-st{
+    background-image: url("img/Settings_\(iOS\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: gray;
+}
+
+.bg-yt{
+    background-image: url("img/YouTube-Logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+
+.bg-zapp{
+    background-image: url("img/sapp2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: yellow; */
+}
+
+.bg-spot{
+    background-image: url("img/spotify.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.bg-iclo{
+    background-image: url("img/iphone.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-music{
+    background-image: url("img/music.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-tel{
+    background-image: url("img/tel.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-color: #38dd54s;
+}
+
+.bg-pin{
+    background-image: url("img/pinterest.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.bg-duo{
+    background-image: url("img/duolingo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-mail{
+    background-image: url("img/mail.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-saf{
+    background-image: url("img/safari.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+}
+
+.bg-face{
+    background-image: url("img/Facebook.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #1977f3s;
+}
+
+.bg-trans{
+    background-image: url("img/trans.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+}
+
+.bg-pho{
+    background-image: url("img/photo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+}
+
+.bg-tik{
+    background-image: url("img/titok.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+
+.bg-ig{
+    background-image: url("img/ig1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: black; */
+}
+
+.bg-sms{
+    background-image: url("img/sms.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-conc{
+    background-image: url("img/Facetime.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #04c60e;
+}
+
+.bg-no{
+    background-image: url("img/not.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
